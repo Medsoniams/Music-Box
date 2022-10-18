@@ -49,15 +49,57 @@
                 мир музыки</p>
             <form class="promo__form" action="https://formspree.io/f/meqdlond" method="POST">
                 <label>
-                    <input class="promo__form-name" type="text" name="name" placeholder="Имя">
+                    <input class="promo__form-name" type="text" name="name" placeholder="Имя" required>
                 </label>
                 <label>
-                    <input class="promo__form-email" type="email" name="email" placeholder="Email">
+                    <input class="promo__form-email" type="email" name="email" placeholder="Email" required>
                 </label>
                 <button class="promo__form-btn" type="submit">Получить доступ</button>
             </form>
         </div>
     </div>
 </header>
+<main class="main">
+    <section class="pricing">
+        <div class="container">
+            <h2 class="pricing__title">Формы подписки</h2>
+            <div class="pricing__cards">
+                <article class="pricing__card bg-free">
+                    <h3 class="pricing__card-title">Бесплатная</h3>
+                    <div class="pricing__card-price">
+                        <span>0</span>
+                        <span>грн.</span>
+                    </div>
+                    <button class="pricing__card-btn">ОФОРМИТЬ</button>
+                    <p class="pricing__card-description">Оплата в&nbsp;месяц. Бесплатный тариф предоставляет <br> доступ ко&nbsp;всей
+                        коллекции музыки. Присутствует <br> реклама</p>
+                </article>
+                <article class="pricing__card bg-standart">
+                    <h3 class="pricing__card-title">Стандартная</h3>
+                    <div class="pricing__card-price">
+                        <span>250</span>
+                        <span>грн.</span>
+                    </div>
+                    <button class="pricing__card-btn">ОФОРМИТЬ</button>
+                    <p class="pricing__card-description">Оплата в&nbsp;месяц. Стандартный тариф предоставляет <br> доступ ко&nbsp;всей
+                        коллекции музыки в&nbsp;среднем <br> качестве</p>
+                </article>
+                <article class="pricing__card bg-premium">
+                    <h3 class="pricing__card-title">Премиум</h3>
+                    <div class="pricing__card-price">
+                        <span>500</span>
+                        <span>грн.</span>
+                    </div>
+                    <button class="pricing__card-btn">ОФОРМИТЬ</button>
+                    <p class="pricing__card-description">Оплата в&nbsp;месяц. Премиум тариф предоставляет <br> доступ ко&nbsp;всей
+                        коллекции музыки в&nbsp;высоком <br> качестве</p>
+                </article>
+            </div>
+            <p class="pricing__description">На&nbsp;всех тарифах возможно прослушивание музыки с&nbsp;мобильных
+                устройств. На&nbsp;премиум тарифе вы&nbsp;можете скачать все композиции на ваше устройство и слушать
+                музыку без подключения к&nbsp;интернету</p>
+        </div>
+    </section>
+</main>
 </body>
 </html>
