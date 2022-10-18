@@ -5,6 +5,9 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/index.css">
     <title>Music Box</title>
 </head>
@@ -40,18 +43,19 @@
             </div>
         </div>
         <div class="header__promo">
-            <h1 class="promo__title">Morten Harket</h1>
-            <p class="promo__subtitle">24&nbsp;875 поклонников</p>
-            <div class="header__promo-button">
-                <a class="promo-btn btn-purple" href="#">
-                    <img src="images/button_mix.svg" alt="">
-                    МИКС
-                </a>
-                <a class="promo-btn btn-red" href="#">
-                    <img src="images/button_heart.svg" alt="">
-                    В ИЗБРАННОЕ
-                </a>
-            </div>
+            <h1 class="promo__title">Онлайн музыка где угодно</h1>
+            <h2 class="promo__subtitle">Без ограничений</h2>
+            <p class="promo__text">Получите доступ всего за&nbsp;несколько шагов. Заполните форму ниже и&nbsp;откройте
+                мир музыки</p>
+            <form class="promo__form" action="https://formspree.io/f/meqdlond" method="POST">
+                <label>
+                    <input class="promo__form-name" type="text" name="name" placeholder="Имя">
+                </label>
+                <label>
+                    <input class="promo__form-email" type="email" name="email" placeholder="Email">
+                </label>
+                <button class="promo__form-btn" type="submit">Получить доступ</button>
+            </form>
         </div>
     </div>
 </header>
